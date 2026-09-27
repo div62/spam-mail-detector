@@ -13,6 +13,3 @@ def clean_text(text):
     tokens = [word for word in tokens if word not in stop_words]
 
     return " ".join(tokens)
-message = "Congratulations! You WON a FREE Prize!"
-
-print(clean_text(message))    
